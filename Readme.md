@@ -120,17 +120,15 @@ g++ swiss.cpp -o swiss
 
 ---
 
-# Project Structure
+# 📁 Project Structure
 
----
-
+```text
 .
-├── swiss.cpp
-├── players.txt
-├── tournament_save.txt
-└── README.md
-
----
+├── swiss.cpp              # Main tournament engine
+├── players.txt            # Sample player list
+├── tournament_save.txt    # Saved tournament state
+└── README.md              # Project documentation
+```
 
 ---
 
