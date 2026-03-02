@@ -122,11 +122,15 @@ g++ swiss.cpp -o swiss
 
 # Project Structure
 
+---
+
 .
 ├── swiss.cpp
 ├── players.txt
 ├── tournament_save.txt
 └── README.md
+
+---
 
 ---
 
