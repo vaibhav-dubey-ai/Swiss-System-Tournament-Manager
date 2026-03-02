@@ -13,8 +13,8 @@ Future versions will include a **web interface** and improved usability.
 ### Player Management
 
 - Add players manually
-- Load players from a file
-- Withdraw players during the tournament
+- Load players from a file in the starting
+- Add & Withdraw players during the tournament
 - Unique player ID system
 
 ### Tournament Engine
@@ -33,11 +33,11 @@ Future versions will include a **web interface** and improved usability.
 
 ### Results Processing
 
-- Enter results interactively
+- Results are entered using simple numeric values:
 - Supports:
-  - White win
-  - Black win
-  - Draw
+  - White win - Enter 1
+  - Black win - Enter 0
+  - Draw - Enter 0.5
 
 - Automatic score updates
 
@@ -109,14 +109,24 @@ Contains:
 ### Compile
 
 ```bash
-g++ main.cpp -o tournament
+g++ swiss.cpp -o swiss
 ```
 
 ### Run
 
 ```bash
-./tournament
+./swiss
 ```
+
+---
+
+# Project Structure
+
+.
+├── swiss.cpp
+├── players.txt
+├── tournament_save.txt
+└── README.md
 
 ---
 
